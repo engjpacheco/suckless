@@ -1,4 +1,4 @@
-# Luke's build of st - the simple (suckless) terminal
+# Luke's based build of st - the simple (suckless) terminal
 
 The [suckless terminal (st)](https://st.suckless.org/) with some additional
 features that make it literally the best terminal emulator ever:
@@ -33,6 +33,7 @@ features that make it literally the best terminal emulator ever:
 + Ligatures
 + font2
 + updated to latest version 0.8.4
++ blinking cursor for fancy.
 
 ## Installation for newbs
 
@@ -93,7 +94,3 @@ want to manually set your prefered emoji/special character font to a lower size
 in the `config.h` file to avoid this. By default, JoyPixels is used at a
 smaller size than the usual text.
 
-## Contact
-
-- Luke Smith <luke@lukesmith.xyz>
-- [https://lukesmith.xyz](https://lukesmith.xyz)
