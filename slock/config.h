@@ -13,7 +13,7 @@ static const char *colorname[NUMCOLS] = {
 static const int failonclear = 1;
 
 /* insert grid pattern with scale 1:1, the size can be changed with logosize */
-static const int logosize = 100;
+static const int logosize = 70;
 static const int logow = 12;	/* grid width and height for right center alignment*/
 static const int logoh = 6;
 
