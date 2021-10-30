@@ -60,7 +60,6 @@ static Sp scratchpads[] = {
 /* tagging */
 static const char *tags[] = {"", "", "", "", "", "", "", "", "", };
 static const char *alttags[] = { "", "", "", "", "", "", "", "", "", };
-// static const char *alttags[] = { "", "", "", "", "", "", "", "", "", };
 
 static const char *tagsel[][2] = {
 	{ "#689d6a", "#000000" },
@@ -96,11 +95,11 @@ static int resizehints = 0;    /* 1 means respect size hints in tiled resizals *
 #include "vanitygaps.c"
 static const Layout layouts[] = {
 	/* symbol     arrange function */
-	{ "",	dwindle },		/* Decreasing in size right and leftward */
+	{ "",	dwindle },		/* Decreasing in size right and leftward */
 	{ "",	tile },			/* Default: Master on left, slaves on right */
-	{ "TTT",	bstack },		/* Master on top, slaves on bottom */
+	{ "",	bstack },		/* Master on top, slaves on bottom */
 
-	{ "[@]",	spiral },		/* Fibonacci spiral */
+	{ "",	spiral },		/* Fibonacci spiral */
 
 	{ "[D]",	deck },			/* Master on left, slaves in monocle-like mode on right */
 	{ "[M]",	monocle },		/* All windows on top of eachother */
