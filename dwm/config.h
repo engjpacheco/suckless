@@ -26,7 +26,7 @@ static const int colorfultag        = 1;  /* 0 means use SchemeSel for selected 
 static char *fonts[]          = {
 
 	"monospace:size=15:pixelsize=12:antialias=true:autohint=true",
-	// "JetBrainsMono Nerd Font:size=12:pixelsize=12:antialias=true:autohint=true"
+	//"JetBrainsMono Nerd Font:size=12:pixelsize=12:antialias=true:autohint=true"
 	"JoyPixels:pixelsize=12:antialias=true:autohint=true",
 	"siji:size=14",
 
